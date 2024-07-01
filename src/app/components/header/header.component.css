@@ -1,0 +1,13 @@
+mat-toolbar{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
