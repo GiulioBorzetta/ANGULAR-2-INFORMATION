@@ -45,6 +45,7 @@
   }
 
   .buttonLoad{
+    border: 2px solid black;
     padding: 10px;
     margin-top: 10px;
     border-radius: 20px;
@@ -62,6 +63,8 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .textChange{
@@ -70,6 +73,7 @@
 
   .changeDisplay{
     margin: 30px;
+    border: 2px solid black;
     border-radius: 20px;
     background-color: #007BFF ;
   }

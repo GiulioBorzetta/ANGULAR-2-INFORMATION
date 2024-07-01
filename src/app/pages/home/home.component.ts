@@ -39,6 +39,5 @@ export class HomeComponent implements OnInit {
 
   toggleCss() {
     this.changeCss = !this.changeCss;
-    console.log("Theme toggled:", this.changeCss);
   }
 }
