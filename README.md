@@ -37,4 +37,4 @@ All interno della cartella services é presente un'altra cartella, ovvero module
 
 ## Avviare la parte di test
 
-per avviare la parte di test del codice bisogna andare sul terminale e scrivere il comando `ng test` ed aprirà una pagina web con tutti i test creati (68 test fatti) che vanno a controllare che tutti gli elementi di questo sito web siano giusti e che funzionino perfettamente
+per avviare la parte di test del codice bisogna andare sul terminale e scrivere il comando `ng test` ed aprirà una pagina web con tutti i test creati (12 test fatti) che vanno a controllare che tutti gli elementi di questo sito web siano giusti e che funzionino perfettamente
