@@ -1,27 +1,38 @@
-# Progettoangular2
+# ANGULAR 2 INFORMATION 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+Per vedere il sito -> [Clicca qui](https://angular-2-information.netlify.app/)
 
-## Development server
+## Come avviare il sito dal proprio pc?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Duplicare il progetto sul proprio computer
+- Aprire il terminale e usare il comando `npm install`
+- una volta scaricati tutti i file, digitare il comando `ng serve` e cliccare sul link che verrà generato
 
-## Code scaffolding
+## Come é strutturato il sito?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+il sito é costituito da una sola pagina, dove é possibile vedre tutte le news presenti.
 
-## Build
+![Sito appena entrato](https://github.com/GiulioBorzetta/ANGULAR-2-INFORMATION/blob/main/src/images/foto1.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Una volta caricata la pagina, sará presente un header con il nome del sito e subito sotto le news caricate, ovvero 10.
 
-## Running unit tests
+Tra l'header e le news é presente un pulsante in grado di cambiare la posizione delle news, mentre in fondo alla pagina é presente un pulsante per poterne caricare 10 in piú. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Cliccando il pulsante Change](https://github.com/GiulioBorzetta/ANGULAR-2-INFORMATION/blob/main/src/images/foto2.png)
 
-## Running end-to-end tests
+## A livello di codice come é costituito?
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A livello di codice si possono notare tre cartelle: pages, components, e services.
+Nella cartella pages é presente la cartella home, dove é presente tutta la parte delle news.
+Nella cartella components é presente la cartella header, dove é presente la parte superiore del sito.
+L'ultima cartella, quella dei servizi, ha un file, chiamato main.service.ts, dove sono presenti le funzioni che acquisiscono le informazioni dall'api.
+All interno della cartella services é presente un'altra cartella, ovvero module, dove é presente il file con all interno interfaccia User per poter acquisire i dati.
 
-## Further help
+## Librerie usate
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular Material
+- RXJS (è una libreria per la programmazione reattiva che utilizza osservabili per comporre programmi asincroni o basati su eventi utilizzando sequenze di dati osservabili.)
+
+## Avviare la parte di test
+
+per avviare la parte di test del codice bisogna andare sul terminale e scrivere il comando `ng test` ed aprirà una pagina web con tutti i test creati (68 test fatti) che vanno a controllare che tutti gli elementi di questo sito web siano giusti e che funzionino perfettamente
