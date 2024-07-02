@@ -28,6 +28,8 @@ Nella cartella components é presente la cartella header, dove é presente la pa
 L'ultima cartella, quella dei servizi, ha un file, chiamato main.service.ts, dove sono presenti le funzioni che acquisiscono le informazioni dall'api.
 All interno della cartella services é presente un'altra cartella, ovvero module, dove é presente il file con all interno interfaccia User per poter acquisire i dati.
 
+- Nel modulo é possibile notare che User raccoglie piú informazioni rispetto a quelle che mostra sul sito, ho pensato di predisporlo giá per possibili modifiche al sito, anche perché sono state effettuate delle prove ed non incidono sul caricamento della pagina
+
 ## Librerie usate
 
 - Angular Material
